@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+}
+
+.stopwatch-container {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.time-display {
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 20px;
+  letter-spacing: 5px;
+}
+
+.controls button {
+  background-color: #ff6f61;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  padding: 15px 30px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.controls button:hover {
+  background-color: #ff3b2b;
+}
+
+.controls button:focus {
+  outline: none;
+}
